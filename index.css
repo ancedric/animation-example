@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+  background-color: #131217;
+}
+
+.box {
+  margin-top: 500px;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+.invisible-box {
+  height: 50vh;
+}
+
+.scroll-element {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 500px;
+  background-color: white;
+  transition: all 2s;
+  opacity: 0;
+}
+
+.scroll-element.visible {
+  opacity: 1;
+}
